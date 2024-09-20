@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+    "title": "UFS 11",
+    "settings": {
+        "color": {
+            "defaultPalette": false, 
+            "palette": [
+                {
+                    "color": "#fff", 
+                    "name": "White", 
+                    "slug": "white"
+                }, 
+                {
+                    "color": "#000", 
+                    "name": "Black", 
+                    "slug": "black"
+                }
+            ]
+        }
+    }
+}
