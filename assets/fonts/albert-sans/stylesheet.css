@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Regular.woff2') format('woff2'),
+        url('AlbertSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Bold.woff2') format('woff2'),
+        url('AlbertSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Medium.woff2') format('woff2'),
+        url('AlbertSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Thin.woff2') format('woff2'),
+        url('AlbertSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

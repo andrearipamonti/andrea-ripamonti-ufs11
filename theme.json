@@ -3,9 +3,15 @@
     "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
     "title": "UFS 11",
     "settings": {
+        "appearanceTools": true,
         "color": {
             "defaultPalette": false, 
             "palette": [
+                {
+                    "color": "#ED008C", 
+                    "name": "Primario", 
+                    "slug": "primary"
+                }, 
                 {
                     "color": "#fff", 
                     "name": "White", 
@@ -17,6 +23,60 @@
                     "slug": "black"
                 }
             ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Albert Sans",
+                            "fontStyle": "normal",
+                            "fontWeight": "100", 
+                            "src": [
+                                "file:./assets/fonts/albert-sans/AlbertSans-Thin.woff",
+                                "file:./assets/fonts/albert-sans/AlbertSans-Thin.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Albert Sans",
+                            "fontStyle": "normal",
+                            "fontWeight": "400", 
+                            "src": [
+                                "file:./assets/fonts/albert-sans/AlbertSans-Regular.woff",
+                                "file:./assets/fonts/albert-sans/AlbertSans-Regular.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Albert Sans",
+                            "fontStyle": "normal",
+                            "fontWeight": "500", 
+                            "src": [
+                                "file:./assets/fonts/albert-sans/AlbertSans-Medium.woff",
+                                "file:./assets/fonts/albert-sans/AlbertSans-Medium.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Albert Sans",
+                            "fontStyle": "normal",
+                            "fontWeight": "700", 
+                            "src": [
+                                "file:./assets/fonts/albert-sans/AlbertSans-Bold.woff",
+                                "file:./assets/fonts/albert-sans/AlbertSans-Bold.woff2"
+                            ]
+                        }
+                    ], 
+                    "fontFamily": "Albert Sans",
+                    "name": "Albert Sans",
+                    "slug": "albertsans"
+                }
+            ]
         }
+    }, 
+    "styles": {
+        "typography": {
+			"fontFamily": "var(--wp--preset--font-family--albertsans)",
+			"fontStyle": "normal",
+			"fontWeight": "400"
+		}
     }
 }

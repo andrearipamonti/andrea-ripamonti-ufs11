@@ -22,3 +22,10 @@
 
     }
     add_action('after_setup_theme', 'setup');
+
+    if( class_exists('acf') ) {
+        function register_acf_blocks() {
+            register_block_type( __DIR__ . '/acf-blocks/carousel');
+        }
+        add_action('init', 'register_acf_blocks');
+    }
