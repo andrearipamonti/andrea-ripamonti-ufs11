@@ -16,3 +16,6 @@ https://www.advancedcustomfields.com/resources/
 https://www.advancedcustomfields.com/resources/blocks/
 https://www.advancedcustomfields.com/resources/blocks/#innerblock-support
 
+
+https://developer.wordpress.org/reference
+https://developer.wordpress.org/
