@@ -10,14 +10,20 @@
 		"carosello"
 	], 
     "acf": {
-		"renderTemplate": "carousel-template.php"
+		"renderTemplate": "carousel-template.php", 
+        "mode": "preview"
 	}, 
     "style": [
-        "slick", 
+        "slick",
         "carousel"
     ],
     "script": [
         "slick", 
         "carousel"
-    ]
+    ], 
+    "supports": {
+        "inserter": true,
+        "jsx": true, 
+        "multiple": true
+    }
 }

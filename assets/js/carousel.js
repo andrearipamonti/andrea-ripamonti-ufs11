@@ -1,1 +1,1 @@
-console.log(1);
+$('.js-carousel .acf-innerblocks-container').slick();

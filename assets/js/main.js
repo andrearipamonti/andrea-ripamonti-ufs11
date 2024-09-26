@@ -1,1 +1,1 @@
-console.log('I\'m back');
+const $ = jQuery.noConflict();

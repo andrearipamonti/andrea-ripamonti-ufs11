@@ -29,7 +29,7 @@
         wp_enqueue_script( 
             'main', 
             get_template_directory_uri() . '/assets/js/main.js',
-            array(), 
+            array('jquery'), 
             '1.0.0', 
             true
         );
