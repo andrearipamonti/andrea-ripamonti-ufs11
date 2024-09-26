@@ -1,0 +1,18 @@
+Da fare per 11/10/2024
+
+Realizzare 2 blocchi
+Blocco pop-up
+Blocco Card ( no js )
+
+docs
+
+https://jquery.com
+https://api.jquery.com
+
+https://www.json.org/json-it.html
+
+https://www.advancedcustomfields.com/
+https://www.advancedcustomfields.com/resources/
+https://www.advancedcustomfields.com/resources/blocks/
+https://www.advancedcustomfields.com/resources/blocks/#innerblock-support
+
