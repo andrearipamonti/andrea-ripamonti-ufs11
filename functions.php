@@ -25,7 +25,9 @@
 
     if( class_exists('acf') ) {
         function register_acf_blocks() {
+            register_block_type( __DIR__ . '/acf-blocks/accordion');
             register_block_type( __DIR__ . '/acf-blocks/carousel');
+            register_block_type( __DIR__ . '/acf-blocks/modal');
         }
         add_action('init', 'register_acf_blocks');
     }

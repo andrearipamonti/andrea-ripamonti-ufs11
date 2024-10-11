@@ -52,6 +52,14 @@
             '1.0.0', 
             true
         );
+
+        wp_register_script(
+            'modal', 
+            get_template_directory_uri() . '/assets/js/modal.js', 
+            array('jquery'), 
+            '1.0.0', 
+            true
+        );
         
 		wp_register_style(
             'slick', 
@@ -65,6 +73,22 @@
             'carousel', 
             get_template_directory_uri() . '/assets/css/carousel.css', 
             array('slick'), 
+            '1.0.0', 
+            'all'
+        );
+
+        wp_register_style(
+            'accordion', 
+            get_template_directory_uri() . '/assets/css/accordion.css', 
+            array(), 
+            '1.0.0', 
+            'all'
+        );
+
+        wp_register_style(
+            'modal', 
+            get_template_directory_uri() . '/assets/css/modal.css', 
+            array(), 
             '1.0.0', 
             'all'
         );

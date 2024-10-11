@@ -1,0 +1,26 @@
+{   
+    "apiVersion": 2,
+    "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+	"name": "acf/modal",
+	"title": "Pop-up",
+	"description": "Un blocco personalizzato che permette di inserire un pop-up",
+	"category": "design",
+	"keywords": [
+		"modal",
+		"pop-up"
+	], 
+    "acf": {
+		"renderTemplate": "modal-template.php", 
+        "mode": "edit"
+	}, 
+    "style": [
+        "modal"
+    ],
+    "script": [
+        "main",
+        "modal"
+    ],
+    "supports": {
+        "multiple": true
+    }
+}
