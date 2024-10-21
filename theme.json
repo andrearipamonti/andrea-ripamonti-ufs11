@@ -69,8 +69,89 @@
                     "name": "Albert Sans",
                     "slug": "albertsans"
                 }
+            ],
+            "fluid": true, 
+            "defaultFontSizes": false,
+            "fontSizes": [
+                {
+                    "fluid": {
+                        "max": "16px", 
+                        "min": "12px"
+                    }, 
+                    "name": "Piccolo", 
+                    "size": "16px", 
+                    "slug": "small"
+                }, 
+                {
+                    "fluid": {
+                        "max": "24px", 
+                        "min": "18px"
+                    }, 
+                    "name": "Medio", 
+                    "size": "24px", 
+                    "slug": "medium"
+                }, 
+                {
+                    "fluid": {
+                        "max": "36px", 
+                        "min": "28px"
+                    }, 
+                    "name": "Grande", 
+                    "size": "36px", 
+                    "slug": "large"
+                }
+            ]
+        },
+        "background": {
+            "backgroundImage": true, 
+            "backgroundSize": true
+        }, 
+        "spacing": {
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw",
+                "%"
+            ], 
+            "margin": true, 
+            "padding": true, 
+            "defaultSpacingSizes": false, 
+            "spacingSizes": [
+				{
+					"name": "XS",
+					"size": "clamp(1rem, 0.75rem + 0.6667vw, 1.25rem)",
+					"slug": "10"
+				},
+				{
+					"name": "S",
+					"size": "clamp(1.25rem, 1rem + 0.6667vw, 1.5rem)",
+					"slug": "20"
+				},
+				{
+					"name": "M",
+					"size": "clamp(1.5rem, 1.25rem + 0.6667vw, 1.75rem)",
+					"slug": "30"
+				},
+				{
+					"name": "L",
+					"size": "clamp(1.75rem, 1.5rem + 0.6667vw, 2rem)",
+					"slug": "40"
+				},
+				{
+					"name": "XL",
+					"size": "clamp(2rem, 1.75rem + 0.6667vw, 2.25rem)",
+					"slug": "50"
+				},
+				{
+					"name": "XXL",
+					"size": "clamp(2.25rem, 2rem + 0.6667vw, 2.5rem)",
+					"slug": "60"
+				}
             ]
         }
+
     }, 
     "styles": {
         "typography": {
