@@ -18,6 +18,8 @@
             // Importo il file php che registra e mette in coda i file CSS e JS
             require get_template_directory() . '/inc/assets.php';
 
+            // Importo i custom post types
+            require get_template_directory() . '/custom-post-types/custom-post-type-portfolio.php';
         }
 
     }
