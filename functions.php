@@ -20,6 +20,9 @@
 
             // Importo i custom post types
             require get_template_directory() . '/custom-post-types/custom-post-type-portfolio.php';
+
+            // Import le custom taxonomies
+            require get_template_directory() . '/custom-post-taxonomies/taxonomy-portfolio.php';
         }
 
     }

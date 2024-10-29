@@ -50,6 +50,9 @@
 			'show_in_rest'          => true,
 			'rest_base'             => 'portfolio_rest',
 			'rest_controller_class' => 'WP_REST_Posts_Controller',
+			'taxonomies'  			=> array(
+				'portfolio-type'
+			),
 		) );
 	}
 	add_action( 'init', 'portfolio_init' );
