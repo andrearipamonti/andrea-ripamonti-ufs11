@@ -2,6 +2,11 @@
 
     $accordionName = uniqid();
 
+    $class_name = 'accordion';
+    if ( ! empty( $block['className'] ) ) {
+        $class_name .= ' ' . $block['className'];
+    }
+
     $type = 'checkbox';
     $accordionType = get_field('acf_blocks_accordion_type_bool');
     if($accordionType != true) {
@@ -10,7 +15,7 @@
 
 if(have_rows('acf_blocks_accordion_rp')): ?>
 
-    <div class="accordion">
+    <div class="<?php echo esc_attr( $class_name ); ?>">
 
         <?php while( have_rows('acf_blocks_accordion_rp') ) : the_row(); 
 
